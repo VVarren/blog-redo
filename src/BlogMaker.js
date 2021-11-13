@@ -26,6 +26,8 @@ function BlogMaker() {
 				onClick={() => {
 					const Blog = [title, description];
 					setBlogs([...blogs, Blog]);
+					setTitle("");
+					setDescription("");
 				}}
 			>
 				Click me
